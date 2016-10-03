@@ -110,7 +110,7 @@ var img;
 function preload() {
     width = 640;
     height = 480;
-    img = loadImage("texture.png");
+    img = loadImage("static/images/texture.png");
     ps = new ParticleSystem(width / 2, height / 2, img);
 }
 
